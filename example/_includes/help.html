@@ -1,0 +1,24 @@
+<div id="help" class="container module">
+  <div class="tabbable"> <!-- Only required for left/right tabs -->
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#tab1" data-toggle="tab"><i class="icon icon-fighter-jet"></i> Deployment Guide</a></li>
+      <li><a href="#tab2" data-toggle="tab"><i class="icon icon-user-md"></i> Developer Guide</a></li>
+      <li><a href="#tab3" data-toggle="tab"><i class="icon icon-user"></i> User Guide</a></li>
+      <li><a href="#tab4" data-toggle="tab"><i class="icon icon-bookmark"></i> Useful Links</a></li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane active" id="tab1">
+        <p>{% include deployment-guide.html %}</p>
+      </div>
+      <div class="tab-pane" id="tab2">
+        <p>{% include developer-guide.html %}</p>
+      </div>
+      <div class="tab-pane" id="tab3">
+        <p>{% include user-guide.html %}</p>
+      </div>
+      <div class="tab-pane" id="tab4">
+        <p>{% include other-links.html %}</p>
+      </div>
+    </div>
+  </div>
+</div>
